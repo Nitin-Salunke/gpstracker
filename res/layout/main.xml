@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+        >
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="18dp">
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:orientation="horizontal"
+                  android:layout_width="fill_parent"
+                  android:layout_height="41dp">
+
+        <TextView
+                android:layout_width="132dp"
+                android:layout_height="wrap_content"
+                android:text="Latitude :"
+                android:id="@+id/textView" android:layout_gravity="center"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/latitude" android:text="Info Unavailable" android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:orientation="horizontal"
+                  android:layout_width="wrap_content"
+                  android:layout_height="41dp">
+
+        <TextView
+                android:layout_width="132dp"
+                android:layout_height="wrap_content"
+                android:text="Longitude :"
+                android:id="@+id/textView" android:layout_gravity="center"/>
+
+        <TextView
+                android:layout_width="132dp"
+                android:layout_height="wrap_content"
+                android:text="Info Unavailable"
+                android:id="@+id/longitude" android:layout_gravity="center"/>
+
+    </LinearLayout>
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                  android:orientation="horizontal"
+                  android:layout_width="fill_parent"
+                  android:layout_height="36dp">
+
+        <TextView
+                android:layout_width="132dp"
+                android:layout_height="wrap_content"
+                android:text="Speed :"
+                android:id="@+id/textView" android:layout_gravity="center"/>
+
+
+        <TextView
+            android:layout_width="132dp"
+            android:layout_height="wrap_content"
+            android:text="Info Unavailable"
+            android:id="@+id/speed" android:layout_gravity="center"/>
+
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="43dp">
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="43dp">
+        <Button
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Start"
+                android:id="@+id/btnStart" android:layout_gravity="center"/>
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="18dp">
+    </LinearLayout>
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="43dp">
+        <Button
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:text="Stop"
+                android:id="@+id/btnStop" android:layout_gravity="center"/>
+    </LinearLayout>
+
+</LinearLayout>
+
