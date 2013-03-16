@@ -28,7 +28,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="355cfd81-47bd-42a5-a777-35ad989bff64" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/copyright/profiles_settings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="asynctask.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -140,7 +140,7 @@
       <file leaf-file-name="Main.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/example/asynctask/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="229" column="105" selection-start="7720" selection-end="7720" vertical-scroll-proportion="0.6360294">
+            <state line="232" column="32" selection-start="7856" selection-end="7856" vertical-scroll-proportion="0.7297794">
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2009#2575#0" expanded="true" />
@@ -246,6 +246,44 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="asynctask" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="asynctask" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="position_notifier_android" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="asynctask" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="position_notifier_android" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="res" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="asynctask" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="position_notifier_android" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value=".idea" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -676,7 +714,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/asynctask/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="229" column="105" selection-start="7720" selection-end="7720" vertical-scroll-proportion="0.6360294">
+        <state line="232" column="32" selection-start="7856" selection-end="7856" vertical-scroll-proportion="0.7297794">
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#2009#2575#0" expanded="true" />
