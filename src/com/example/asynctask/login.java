@@ -65,6 +65,7 @@ public class login extends Activity {
         {
             if(result!="") {
                 Intent mainact = new Intent(login.this,Main.class);
+                mainact.putExtra("email",userName.getText().toString());
                 startActivity(mainact);
                 finish();
             }

@@ -14,6 +14,7 @@ import android.os.Environment;
 import android.provider.Settings;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 import android.widget.TextView;
 import org.apache.http.HttpResponse;
 import org.apache.http.NameValuePair;
@@ -39,6 +40,7 @@ public class Main extends Activity {
     Button stopBtn;
     public String flag="false";
     private Task task = null;
+    public String email="";
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -50,6 +52,9 @@ public class Main extends Activity {
         speed = (TextView) findViewById(R.id.speed);
         startBtn = (Button) findViewById(R.id.btnStart);
         stopBtn = (Button) findViewById(R.id.btnStop);
+
+        Intent logIntent=getIntent();
+        email=logIntent.getExtras().getString("email");
 
         startBtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -92,6 +97,7 @@ public class Main extends Activity {
             String longi = savedInstanceState.getString("long");
             String speede = savedInstanceState.getString("speed");
             flag=savedInstanceState.getString("flag");
+            email=savedInstanceState.getString("email");
 
             latitude.setText(lat);
             longitude.setText(longi);
@@ -109,6 +115,7 @@ public class Main extends Activity {
                 bd.putString("lat", latitude.getText().toString());
                 bd.putString("long", longitude.getText().toString());
                 bd.putString("speed", speed.getText().toString());
+                bd.putString("email",email);
                 bd.putString("flag",flag);
             }
 
@@ -204,6 +211,7 @@ public class Main extends Activity {
                     postParams.add(new BasicNameValuePair("latitude",lat.toString()));
                     postParams.add(new BasicNameValuePair("longitude",lon.toString()));
                     postParams.add(new BasicNameValuePair("speed",spe.toString()));
+                    postParams.add(new BasicNameValuePair("email",email));
                     HttpClient client = new DefaultHttpClient();
                     //HttpPost post = new HttpPost("http://192.168.1.78:3000/track/addLocation");
                     HttpPost post = new HttpPost("http://position-notifier.herokuapp.com/track/addLocation");
