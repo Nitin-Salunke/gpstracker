@@ -46,7 +46,7 @@
     <file path="/MainActivity.java" changelist="355cfd81-47bd-42a5-a777-35ad989bff64" time="1361348022537" ignored="false" />
     <file path="/AndroidManifest.xml" changelist="355cfd81-47bd-42a5-a777-35ad989bff64" time="1361425577280" ignored="false" />
     <file path="/loginActivity.java" changelist="355cfd81-47bd-42a5-a777-35ad989bff64" time="1361421623285" ignored="false" />
-    <file path="/Dummy.txt" changelist="355cfd81-47bd-42a5-a777-35ad989bff64" time="1363443546739" ignored="false" />
+    <file path="/Dummy.txt" changelist="355cfd81-47bd-42a5-a777-35ad989bff64" time="1363444090591" ignored="false" />
     <file path="/login.java" changelist="355cfd81-47bd-42a5-a777-35ad989bff64" time="1363442740646" ignored="false" />
     <file path="/login.xml" changelist="355cfd81-47bd-42a5-a777-35ad989bff64" time="1361433570720" ignored="false" />
     <file path="/main.xml" changelist="355cfd81-47bd-42a5-a777-35ad989bff64" time="1361438033447" ignored="false" />
@@ -140,7 +140,7 @@
       <file leaf-file-name="Main.java" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/com/example/asynctask/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="232" column="32" selection-start="7856" selection-end="7856" vertical-scroll-proportion="0.7297794">
+            <state line="234" column="43" selection-start="7983" selection-end="7983" vertical-scroll-proportion="0.7922794">
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#2009#2575#0" expanded="true" />
@@ -491,7 +491,11 @@
       <created>1363443553220</created>
       <updated>1363443553220</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Post email Id with position.">
+      <created>1363444095937</created>
+      <updated>1363444095937</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -714,7 +718,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/com/example/asynctask/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="232" column="32" selection-start="7856" selection-end="7856" vertical-scroll-proportion="0.7297794">
+        <state line="234" column="43" selection-start="7983" selection-end="7983" vertical-scroll-proportion="0.7922794">
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#2009#2575#0" expanded="true" />
