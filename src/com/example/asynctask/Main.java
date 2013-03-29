@@ -214,7 +214,7 @@ public class Main extends Activity {
                     postParams.add(new BasicNameValuePair("email",email));
                     HttpClient client = new DefaultHttpClient();
                     //HttpPost post = new HttpPost("http://192.168.1.78:3000/track/addLocation");
-                    HttpPost post = new HttpPost("http://position-notifier.herokuapp.com/trackers/update_current_location");
+                    HttpPost post = new HttpPost("http://198.101.192.177/trackers/update_current_location");
                     UrlEncodedFormEntity formEntity = null;
                     try {
                         formEntity = new UrlEncodedFormEntity(postParams);
